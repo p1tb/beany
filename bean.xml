@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="player1" class="com.example.demo.Player">
+        <constructor-arg index="0" value="Andrei Golubev"/>
+        <constructor-arg index="1" value="Cherepaha"/>
+    </bean>
+
+    <bean id="player2" class="com.example.demo.Player">
+        <constructor-arg index="0" value="Alexey Berezin"/>
+        <constructor-arg index="1" value="322"/>
+    </bean>
+
+</beans>
